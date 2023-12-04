@@ -1,0 +1,123 @@
+* {
+    color: #fff;
+    margin: 0;
+}
+.calculator-container {
+    background-color: #283747;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator {
+    background-color: #1B2631  ;
+    min-width: 340px;
+    width: 30%;
+    height: 75%;
+    border: 5px solid white;
+    border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.textbox-container {
+    height:30%;
+    display: flex;
+    justify-content: center; 
+}
+.textbox {
+    margin: 5px;
+    box-sizing: border-box;
+    background-image: linear-gradient(#ffffff66 ,#00000000 );
+    border: 5px solid #fff;
+    border-radius: 10px;
+    height:100%;
+    width: 100%;
+    border-color: white ;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+}
+.operator-visual{
+    height: 15px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+.firstline-visual {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 25px;
+}
+.secondline-visual{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 25px;
+}
+.result-visual {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    height: 30px;
+}
+.pan-numerico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content:center ;
+    height: 70%;
+    margin: 10px;
+    box-sizing: border-box;
+    user-select: none;
+}
+.pan {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.pan-number {
+    padding: 11px;
+    border: 5px solid white;
+    border-radius: 10px; 
+}
+.pan-number:active {
+   background-color: #000;
+}
+.operator {
+    padding: 11px;
+    border: 5px solid white;
+    border-radius: 10px; 
+}
+.operator:active {
+    background-color: #000;
+ }
+.pan-numero__cero {
+    text-align: center;
+    width: 55%;
+    padding: 11px;
+    border: 5px solid white;
+    border-radius: 10px; 
+}
+.pan-number__cero:active {
+    background-color: #000;
+ }
+.firstline {
+    text-align: center;
+    width: 13%;
+    padding: 11px;
+    border: 5px solid white;
+    border-radius: 10px; 
+}
+.firstline:active {
+    background-color: #000;
+ }
